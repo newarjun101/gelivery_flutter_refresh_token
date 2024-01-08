@@ -56,9 +56,12 @@ class PickupWidget extends StatelessWidget {
                                 fontWeight: FontWeight.w500))),
                     Expanded(
                         flex: 1,
-                        child: _tableWidget(
-                          title: vo.osTownshipName ?? "",
-                          subtitle: vo.osPrimaryPhone ?? "",
+                        child: Padding(
+                          padding: const EdgeInsets.symmetric(horizontal: 6),
+                          child: _tableWidget(
+                            title: vo.osTownshipName ?? "",
+                            subtitle: vo.osPrimaryPhone ?? "",
+                          ),
                         )),
                     Expanded(
                         flex: 1,
