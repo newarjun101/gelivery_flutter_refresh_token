@@ -66,7 +66,7 @@ showConfirmDialog(
             padding: const EdgeInsets.only(left: 6, right: 6),
             child: Text(
               title,
-              style: Theme.of(context).textTheme.titleMedium,
+              style: Theme.of(context).textTheme.titleLarge,
             )),
 
         const SizedBox(
