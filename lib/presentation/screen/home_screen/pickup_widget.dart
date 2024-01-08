@@ -102,6 +102,7 @@ Widget _tableWidget(
       Text(
         title,
         style: titleTextStyle,
+        textAlign: TextAlign.center,
       ),
       const SizedBox(
         height: 2,
